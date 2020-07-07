@@ -1,0 +1,47 @@
+body {
+  background-color: grey;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 50px;
+}
+.nav {
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.navLat {
+  width: 15%;
+
+  background-color: orange;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.navLat li {
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+a {
+  font-size: 32px;
+  font-weight: bolder;
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+a:hover {
+  color: brown;
+}
